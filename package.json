@@ -1,0 +1,25 @@
+{
+  "name": "blog_nodejs",
+  "version": "1.0.0",
+  "description": "A simple blog application using Node.js and Express",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Psience",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-ejs-layouts": "^2.5.1",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.13.2",
+    "package.json": "^2.0.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.5.0",
+    "nodemon": "^3.1.9"
+  },
+  "keywords": []
+}
